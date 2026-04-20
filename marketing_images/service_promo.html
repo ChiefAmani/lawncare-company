@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    width: 1080px; height: 1080px; overflow: hidden;
+    background: #f0f7ff;
+    font-family: Arial, sans-serif;
+    position: relative;
+  }
+  /* Top colored band */
+  .top-band {
+    background: #2E7D32;
+    height: 420px; position: relative; overflow: hidden;
+  }
+  /* Bubble decorations in top band */
+  .bubble-deco {
+    position: absolute; border-radius: 50%;
+    background: rgba(255,255,255,0.08);
+  }
+  .bubble-deco.b1 { width: 200px; height: 200px; top: -60px; right: -40px; }
+  .bubble-deco.b2 { width: 120px; height: 120px; top: 80px; right: 100px; }
+  .bubble-deco.b3 { width: 80px; height: 80px; top: 20px; right: 180px; opacity: 0.5; }
+  .top-content { padding: 56px 72px; position: relative; z-index: 1; }
+  .brand-name {
+    display: flex; align-items: center; gap: 12px;
+    color: rgba(255,255,255,0.7); font-size: 18px;
+    font-weight: 700; letter-spacing: 3px; text-transform: uppercase;
+    margin-bottom: 40px;
+  }
+  .brand-dot { width: 12px; height: 12px; border-radius: 50%; background: white; }
+  .headline {
+    font-size: 88px; font-weight: 900;
+    color: #ffffff; line-height: 0.95;
+    letter-spacing: -3px; text-transform: uppercase;
+    font-family: 'Arial Black', sans-serif;
+  }
+  /* "NOW OPEN" badge */
+  .now-badge {
+    position: absolute; top: 52px; right: 72px;
+    background: #FBC02D;
+    color: #111111; font-size: 16px; font-weight: 700;
+    letter-spacing: 3px; text-transform: uppercase;
+    padding: 12px 26px; border-radius: 4px;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.2);
+  }
+  /* Offer cards strip */
+  .offers {
+    padding: 36px 72px; display: flex;
+    flex-direction: column; gap: 18px;
+  }
+  .offer-card {
+    display: flex; align-items: center; gap: 20px;
+    background: #ffffff; border-radius: 12px;
+    padding: 20px 28px;
+    box-shadow: 0 2px 12px rgba(46, 125, 50, 0.1);
+  }
+  .offer-icon {
+    width: 52px; height: 52px; border-radius: 10px;
+    background: #E8F5E9;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 26px; flex-shrink: 0;
+    color: #2E7D32;
+    font-weight: bold;
+  }
+  .offer-text-wrap { flex: 1; }
+  .offer-highlight {
+    font-size: 24px; font-weight: 900;
+    color: #2E7D32;
+  }
+  .offer-detail { font-size: 16px; color: #555555; margin-top: 2px; }
+  /* Icon services row */
+  .services-row {
+    background: #2E7D32; padding: 28px 72px;
+    display: flex; justify-content: space-around; align-items: center;
+    margin-top: auto;
+  }
+  .service-item { text-align: center; color: rgba(255,255,255,0.85); }
+  .service-icon { font-size: 28px; margin-bottom: 8px; font-weight: bold; }
+  .service-label { font-size: 14px; letter-spacing: 1px; text-transform: uppercase; font-weight: 600; }
+  /* Footer */
+  .footer-bar {
+    background: #ffffff; padding: 20px 72px;
+    display: flex; justify-content: space-between; align-items: center;
+    border-top: 2px solid #e0e0e0;
+  }
+  .footer-item { display: flex; align-items: center; gap: 10px; color: #444; font-size: 16px; }
+  .footer-icon { font-size: 20px; font-weight: bold; }
+  /* 24/7 pill */
+  .hours-pill {
+    position: absolute; bottom: 120px; left: 72px;
+    background: #2E7D32; color: white;
+    font-size: 28px; font-weight: 900; letter-spacing: 2px;
+    padding: 12px 28px; border-radius: 40px;
+    box-shadow: 0 4px 16px rgba(46, 125, 50, 0.3);
+  }
+</style>
+</head>
+<body>
+  <div class="top-band">
+    <div class="bubble-deco b1"></div>
+    <div class="bubble-deco b2"></div>
+    <div class="bubble-deco b3"></div>
+    <div class="top-content">
+      <div class="brand-name"><div class="brand-dot"></div>GreenScapes</div>
+      <div class="headline">Lawn<br>Care</div>
+    </div>
+    <div class="now-badge">BOOK NOW</div>
+  </div>
+  <div class="offers">
+    <div class="offer-card">
+      <div class="offer-icon">1</div>
+      <div class="offer-text-wrap">
+        <div class="offer-highlight">Spring Cleanup</div>
+        <div class="offer-detail">Full yard cleanup & debris removal</div>
+      </div>
+    </div>
+    <div class="offer-card">
+      <div class="offer-icon">2</div>
+      <div class="offer-text-wrap">
+        <div class="offer-highlight">Weekly Mowing</div>
+        <div class="offer-detail">Reliable, professional weekly service</div>
+      </div>
+    </div>
+  </div>
+  <div class="hours-pill">MON-SAT</div>
+  <div class="services-row">
+    <div class="service-item"><div class="service-icon">+</div><div class="service-label">Fertilization</div></div>
+    <div class="service-item"><div class="service-icon">+</div><div class="service-label">Irrigation</div></div>
+    <div class="service-item"><div class="service-icon">+</div><div class="service-label">Trimming</div></div>
+  </div>
+  <div class="footer-bar">
+    <div class="footer-item"><span class="footer-icon">T:</span>555-LAWN-PRO</div>
+    <div class="footer-item"><span class="footer-icon">L:</span>Serving the Metro Area</div>
+  </div>
+</body>
+</html>

@@ -3,6 +3,37 @@
 ## Product/Service Overview and Unique Value Proposition
 This campaign targets homeowners seeking professional, reliable, and high-quality lawncare services. Our unique value proposition is providing hassle-free, aesthetically pleasing lawn maintenance, allowing customers to enjoy their outdoor spaces without the time and effort commitment. Services include mowing, trimming, edging, fertilization, weed control, and seasonal clean-ups.
 
+## Campaign Objectives & KPIs
+*   **Primary Objective:** Lead Generation (e.g., form submissions, phone calls for quotes).
+*   **Key Performance Indicators (KPIs):**
+    *   Number of qualified leads per month.
+    *   Cost per lead (CPL).
+    *   Conversion rate from lead to booked service.
+    *   Website traffic to service pages.
+
+## Geographic Constraints & Route Density
+*   **Target Service Area:** Hyper-local, defined by specific zip codes or neighborhoods to optimize route density.
+*   **Route Density Goal:** Aim for a minimum of 3-5 customers per square mile within the service area to ensure efficient scheduling and reduced drive time.
+*   **Exclusion Zones:** Areas with low homeowner density or excessive travel time will be excluded.
+
+## Pricing Model & Cost Structure
+*   **Pricing Model:** Tiered subscription model (e.g., Basic, Premium, Elite) with options for one-time seasonal services. Pricing will be transparent and based on lawn size, service frequency, and specific treatments.
+*   **Cost Structure:**
+    *   **Labor:** Hourly wages for crew, including benefits and overtime.
+    *   **Equipment:** Maintenance, fuel, and depreciation of mowers, trimmers, etc.
+    *   **Materials:** Fertilizers, weed control products, safety gear.
+    *   **Marketing Spend:** Allocated budget for digital ads, content creation, and platform fees.
+    *   **Overhead:** Insurance, administrative costs.
+
+## Technical Requirements for Automation
+*   **Deliverable Formats:**
+    *   **Images:** PNG, JPG (1080x1080 for square posts, 1080x1920 for stories/reels, 1200x627 for LinkedIn).
+    *   **Videos:** MP4 (vertical for Reels/Shorts, horizontal for YouTube).
+    *   **Text:** Plain text for posts, Markdown for email bodies.
+*   **Automation Platform Data Schemas:**
+    *   **Campaign Calendar:** JSON format with fields: `date`, `platform`, `content_type`, `text_body`, `image_filename`, `video_filename`, `hashtags`, `CTA_text`, `CTA_URL`.
+    *   **Lead Capture:** Integration with CRM for automated lead entry (Name, Email, Phone, Address, Service Interest).
+
 ## Target Audience Personas
 
 ### Persona 1: Busy Professional Homeowner

@@ -1,65 +1,26 @@
 {
-  "campaign_name": "Spring Growth 2025",
+  "campaign_name": "Lawncare Launch",
   "posts": [
     {
       "platform": "facebook",
-      "post_type": "image",
-      "scheduled_date": "2025-05-02",
+      "text": "Tired of spending your weekends mowing? Reclaim your free time! Our expert lawn care team handles everything from precise mowing to vibrant fertilization. Get a lush, healthy lawn without lifting a finger. #LawnCare #YardWork #FreeTime #ProfessionalLawnCare #GreenLawn",
+      "scheduled_date": "2023-10-25",
       "scheduled_time": "09:00",
-      "text": "Reclaim your weekends! Tired of spending hours mowing and weeding? Imagine a perfectly manicured lawn without lifting a finger. We handle the hard work so you can enjoy what truly matters. Get your free estimate today!",
-      "image": "marketing_images/fb_weekend_saver.png",
-      "hashtags": "#LawnCare #CityLawnCare #WeekendVibes #TimeSaver #ProfessionalLawnCare",
-      "cta_url": "https://example.com/quote"
+      "post_type": "text"
     },
     {
-      "platform": "facebook",
-      "post_type": "image",
-      "scheduled_date": "2025-05-06",
+      "platform": "instagram",
+      "text": "Transform your outdoor space into a vibrant oasis! Our team delivers stunning lawn care results, giving you more time to relax and enjoy. Swipe to see some amazing before & afters! #LawnTransformation #GardenGoals #OutdoorLiving #CurbAppeal #LawnInspiration #BeautifulLawns",
+      "scheduled_date": "2023-10-25",
       "scheduled_time": "13:00",
-      "text": "Dream of a lush, green lawn that makes your neighbors jealous? Our expert fertilization and weed control services transform tired turf into a vibrant oasis. See the difference professional care makes!",
-      "image": "marketing_images/fb_transformation.png",
-      "hashtags": "#GreenLawn #CurbAppeal #LawnMaintenance #YardGoals #CityLandscaping",
-      "cta_url": "https://example.com/quote"
+      "post_type": "text"
     },
     {
-      "platform": "facebook",
-      "post_type": "image",
-      "scheduled_date": "2025-05-09",
+      "platform": "twitter",
+      "text": "Weekend plans: NOT mowing the lawn. Let us handle the hard work! Enjoy a perfectly manicured lawn without the hassle. #LawnCare #YardMaintenance #Relax #ProfessionalService",
+      "scheduled_date": "2023-10-25",
       "scheduled_time": "11:00",
-      "text": "\"Our lawn has never looked better! [Company Name] is reliable, professional, and always goes the extra mile.\" - Sarah C., Homeowner. We're proud to be your neighborhood's trusted lawn care experts.",
-      "image": "marketing_images/fb_testimonial.png",
-      "hashtags": "#LocalBusiness #TrustedService #CustomerLove #CitySmallBusiness #LawnCareExperts",
-      "cta_url": "https://example.com/quote"
-    },
-    {
-      "platform": "instagram",
-      "post_type": "image",
-      "scheduled_date": "2025-05-06",
-      "scheduled_time": "10:00",
-      "text": "Watch this transformation! From overgrown to immaculate, we bring lawns back to life. Swipe to see the stunning before & after!",
-      "image": "marketing_images/ig_transformation.png",
-      "hashtags": "#LawnTransformation #OddlySatisfying #CurbAppeal #LawnCare #CityLawnCare #YardGoals #BeforeAndAfter",
-      "cta_url": "https://example.com/quote"
-    },
-    {
-      "platform": "instagram",
-      "post_type": "image",
-      "scheduled_date": "2025-05-08",
-      "scheduled_time": "14:00",
-      "text": "Precision matters. Our team uses top-of-the-line equipment and expert techniques to ensure every blade of grass is perfect. That's the difference!",
-      "image": "marketing_images/ig_expertise.png",
-      "hashtags": "#ProfessionalLawnCare #LawnMaintenance #TurfManagement #LawnStripes #CityLandscaping #ExpertCare",
-      "cta_url": "https://example.com/quote"
-    },
-    {
-      "platform": "instagram",
-      "post_type": "image",
-      "scheduled_date": "2025-05-10",
-      "scheduled_time": "12:00",
-      "text": "Quick tip: Did you know proper watering is key to a healthy lawn? Early morning is best to prevent evaporation and fungal growth! What's your biggest lawn challenge? Let us know below!",
-      "image": "marketing_images/ig_quick_tip.png",
-      "hashtags": "#LawnCareTips #GardeningHacks #HealthyLawn #AskTheExperts #HomeImprovement",
-      "cta_url": "https://example.com/quote"
+      "post_type": "text"
     }
   ]
 }
